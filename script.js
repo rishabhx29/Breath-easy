@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function() {
         progressFill.style.transition = 'none';
         
         // Force reflow
-        progressFill.offsetHeight;
+        void progressFill.offsetHeight;
         
         // Start animation
         progressFill.style.transition = `width ${duration}ms linear`;
